@@ -1,17 +1,51 @@
-.img-section{
-    background-image: url(https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg);
-    width: 100%;
-    height: 600px;
-
+.img-section {
+  background-image: url(https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg);
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
 }
-.txt-img{
+.txt-img {
   padding: 200px;
   padding-left: 400px;
 }
-button{
-    width: 150px;
-    height: 50px;
-    border: none;
-    background-color: #FE7C7F;
-    color: white;
+button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: #fe7c7f;
+  color: white;
+}
+.cards {
+  display: flex;
+  padding-left: 180px;
+  padding-top: 50px;
+}
+.txt-card {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 100px;
+
+  background-color: white;
+}
+.women {
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg);
+}
+
+.acc {
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_2.jpg);
+}
+.men {
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_3.jpg);
 }
